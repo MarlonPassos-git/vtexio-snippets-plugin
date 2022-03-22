@@ -3,13 +3,16 @@
 - Ter atalhos que vão ajudar no desenvolvimento projeto VTEX na estrutura JSON, SCSS e REACT
 - Ser um plugin do VSCode
 
-# Como contribuir 
 
+# Como usar
 
-# Como usar os snippets 
+Todos os snippets começam do ``vtex.``, logo para usalos escreva vtex.nomedoblocovtex e aperte TAB no autocomplete do VSCode.<br/> Se eu quero os snippets do bloco flex-layout eu vou digitar ``vtex.flex-layout``
+
+# Como instalar os snippets 
 
 1. [Instale a extensão Project Snippets](https://marketplace.visualstudio.com/items?itemName=rebornix.project-snippets), para conseguir rodar localmente em nivel de projeto os snippets.
-2. Divirta-se 😃
+2. Copie a pasta ``snippets`` para dentro da pasta ``.vscode`` na raiz do seu projeto
+3. Divirta-se 😃
 
 # Como contribuir
 1. [Baixe a extensao Convert text/code to a snippet](https://marketplace.visualstudio.com/items?itemName=nsfilho.tosnippet). Ela vai ajudar no processo de criação de novos snippets.

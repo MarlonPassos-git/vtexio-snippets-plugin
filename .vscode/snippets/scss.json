@@ -13,6 +13,21 @@
     ],
     "description": "Flex Layout row é uma estrutura de layout que permite o conceito de linha"
   },
+  "cvtex.flex-layout.row": {
+    "prefix": "cvtex.flex-layout.row",
+    "body": [
+        "// Container \r",
+        ".flexRow--$1 {\r",
+        "\r",
+        "}\r",
+        "\r",
+        "// Involucro \r",
+        ".flexRowContent--$1 {\r",
+        "\r",
+        "}"
+    ],
+    "description": "Flex Layout row é uma estrutura de layout que permite o conceito de linha"
+  },
   "vtex.flex-layout.col": {
     "prefix": "vtex.flex-layout.col",
     "body": [
