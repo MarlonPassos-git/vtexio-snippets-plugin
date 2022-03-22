@@ -23,8 +23,9 @@ const $tabelas = document.querySelectorAll(".rdmd-table-inner");
 for (let $tabela of $tabelas) {
 
     let propriedadesEstruturadas = "";
-    const $linhas = $tabela.querySelectorAll("tbody tr");
-       
+    console.log("Tabela:")
+    
+    const $linhas = Array.from($tabela.querySelectorAll("tbody tr"));
     for (let $linha of $linhas) {
         const $celulas = Array.from($linha.querySelectorAll("td"));
         const [nomeObjeto, tipo, descricao, valorPadrao] = $celulas.map($celula => {
@@ -36,14 +37,15 @@ for (let $tabela of $tabelas) {
             "false": "false",
             "true": "true",
         }
+        const vaiTerVirgula = ($linha == $linhas.at(-1)) ? "":","
         const valor = regrasValorPadrao[`${valorPadrao}`]??`"${valorPadrao}"`;
-        const linhaEstruturada = `"${nomeObjeto}": ${valor}`
-
+        const linhaEstruturada = `"${nomeObjeto}": ${valor}${vaiTerVirgula}`
         propriedadesEstruturadas += linhaEstruturada + "\n"
+        
     }
-
     console.log(propriedadesEstruturadas)
 }
+
 ```
 Este codigo vai gerar retorna no console um rascunho de todas as propriedades que esse bloco recebe diretas da tabela
 
