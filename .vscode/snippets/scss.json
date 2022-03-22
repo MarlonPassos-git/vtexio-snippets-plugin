@@ -40,5 +40,20 @@
         "}"
     ],
     "description": "Flex Layout row é uma estrutura de layout que permite o conceito de colunas"
+  },
+  "cvtex.flex-layout.col": {
+    "prefix": "cvtex.flex-layout.col",
+    "body": [
+        "// Container\r",
+        ".flexCol-- {\r",
+        "\r",
+        "}\r",
+        "\r",
+        "// Elementos filhos\r",
+        ".flexColChild-- {\r",
+        "\r",
+        "}"
+    ],
+    "description": "Flex Layout row é uma estrutura de layout que permite o conceito de colunas"
   }
 }
