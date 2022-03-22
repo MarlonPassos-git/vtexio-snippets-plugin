@@ -1,0 +1,30 @@
+{
+  "vtex.flex-layout.row#": {
+    "props": {
+      "blockClass": "",
+      "colSizing": "equal",
+      "fullWidth": false,
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false
+    },
+    "children": [
+      ""  
+    ]
+  },
+  "vtex.flex-layout.row#asas": {
+      "props": {
+        "blockClass": "asas",
+        "colSizing": "equal",
+        "fullWidth": false,
+        "horizontalAlign": "center",
+        "preserveLayoutOnMobile": false,
+        "preventHorizontalStretch": false,
+        "preventVerticalStretch": false
+      },
+      "children": [
+        "asasas"  
+      ]
+    }
+}
