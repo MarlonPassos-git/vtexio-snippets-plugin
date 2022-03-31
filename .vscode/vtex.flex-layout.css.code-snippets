@@ -1,6 +1,6 @@
 {
   "vtex.flex-layout.row": {
-    "scope": "jsonc",
+    "scope": "css,scss",
     "prefix": "vtex.flex-layout.row",
     "body": [
         ".flexRow--$1 {\r",
@@ -14,6 +14,7 @@
     "description": "Flex Layout row é uma estrutura de layout que permite o conceito de linha"
   },
   "cvtex.flex-layout.row": {
+    "scope": "css,scss",
     "prefix": "cvtex.flex-layout.row",
     "body": [
         "// Container \r",
@@ -29,6 +30,7 @@
     "description": "Flex Layout row é uma estrutura de layout que permite o conceito de linha"
   },
   "vtex.flex-layout.col": {
+    "scope": "css,scss",
     "prefix": "vtex.flex-layout.col",
     "body": [
         ".flexCol--$1 {\r",
@@ -42,6 +44,7 @@
     "description": "Flex Layout row é uma estrutura de layout que permite o conceito de colunas"
   },
   "cvtex.flex-layout.col": {
+    "scope": "css,scss",
     "prefix": "cvtex.flex-layout.col",
     "body": [
         "// Container\r",
