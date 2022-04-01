@@ -1,26 +1,3 @@
 {
-  "product-images#1": {
-    "props": {
-      "blockClass": "1",
-      "aspectRatio": "1:1",
-      "contentOrder": "videos-first",
-      "contentType": "videos",
-      "displayMode": "list",
-      "displayThumbnailsArrows": true,
-      "hiddenImages": "",
-      "maxHeight": 1221,
-      "ModalZoom": "",
-      "placeholder": "",
-      "position": "right",
-      "showNavigationArrows": false,
-      "showPaginationDots": false,
-      "thumbnailVisibility": "hidden",
-      "thumbnailAspectRatio": "auto",
-      "thumbnailMaxHeight": "150",
-      "thumbnailsOrientation": "horizontal",
-      "zoomFactor": "2",
-      "zoomMode": "open-modal"
-    }
-  },
   
 }

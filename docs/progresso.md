@@ -1,6 +1,6 @@
 | Blocoos | json | css | css + comentarios |
 |---------|------|------|--------------------|
- |Add To Cart Button| | | |
+ |Add To Cart Button|x|x| |
  |Autocomplete| | | |
  |Banner| | | |
  |Breadcrumb| | | |
@@ -70,7 +70,7 @@
  |Store Drawer| | | |
  |Store Locator| | | |
  |Store Form| | | |
- |Store Link| | | |
+ |Store Link|x|x| |
  |Store Media| | | |
  |Store Newsletter| | | |
  |Video| | | |

@@ -1,0 +1,20 @@
+{
+  "vtex.link": {
+      "prefix": "vtex.link",
+      "scope": "scss,css",
+      "body": [
+          ".childrenContainer--$1 {\r",
+          "\r",
+          "}\r",
+          "\r",
+          ".label--$1 {\r",
+          "\r",
+          "}\r",
+          "\r",
+          ".link--$1 {\r",
+          "\r",
+          "}"
+      ],
+      "description": "disponibiliza blocos responsáveisasasasas** blocos temáticos"
+  }
+}
