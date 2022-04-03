@@ -1,4 +1,4 @@
-<img src="./docs/img/vtex%20snipets.gif"></img>
+
 
 # Objetivo
 

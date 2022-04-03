@@ -2,6 +2,7 @@
     "name": "vtexio-snippets-plugin",
     "displayName": "vtexio snippets plugin",
     "description": "c",
+    "publisher": "1marlonpassos",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.66.0"
@@ -9,25 +10,25 @@
     "categories": [
         "Snippets"
     ],
-    "icon": "images/icon.jpg",
     "license": "GPL-3.0",
+    "icon": "icon.png",
     "repository": {
 		"type": "git",
-		"url": "https://github.com/MarlonPassos-git/vtexio-snippets-plugin"
+		"url": "https://github.com/MarlonPassos-git/vtexio-snippets-plugin.git"
 	},
     "contributes": {
         "snippets": [
             {
                 "language": "json",
-                "path": "./dist/snippets/snippets.json.code-snippets"
+                "path": "dist/snippets/snippets.json.code-snippets"
             },
             {
                 "language": "jsonc",
-                "path": "./dist/snippets/snippets.json.code-snippets"
+                "path": "dist/snippets/snippets.json.code-snippets"
             },
             {
                 "language": "scss",
-                "path": "./dist/snippets/snippets.css.code-snippets"
+                "path": "dist/snippets/snippets.css.code-snippets"
             },
             {
                 "language": "css",
