@@ -1,0 +1,47 @@
+{
+    "name": "vtexio-snippets-plugin",
+    "displayName": "vtexio snippets plugin",
+    "description": "c",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "icon": "images/icon.jpg",
+    "license": "GPL-3.0",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/MarlonPassos-git/vtexio-snippets-plugin"
+	},
+    "contributes": {
+        "snippets": [
+            {
+                "language": "json",
+                "path": "./dist/snippets/snippets.json.code-snippets"
+            },
+            {
+                "language": "jsonc",
+                "path": "./dist/snippets/snippets.json.code-snippets"
+            },
+            {
+                "language": "scss",
+                "path": "./dist/snippets/snippets.css.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "./dist/snippets/snippets.scss.code-snippets"
+            }
+        ]
+    },
+    "scripts": {
+        "dist": "gulp dist"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-merge-json": "^2.1.2"
+    }
+
+}

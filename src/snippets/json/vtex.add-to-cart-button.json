@@ -1,0 +1,20 @@
+{
+  "vtex.add-to-cart-button": {
+      "prefix": "vtex.add-to-cart-button",
+      "scope": "scss,css",
+      "body": [
+          ".buttonText--$1 {\r",
+          "\r",
+          "}\r",
+          "\r",
+          ".buttonDataContainer--$1 {\r",
+          "\r",
+          "}\r",
+          "\r",
+          ".tooltipLabelText--$1 {\r",
+          "\r",
+          "}"
+      ],
+      "description": "bloco responsável por adicionar produtos no Minicarrinho"
+  }
+}

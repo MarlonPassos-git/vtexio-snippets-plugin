@@ -1,0 +1,41 @@
+{
+  "fvtex.link": {
+      "prefix": "fvtex.link",
+		  "scope": "jsonc,json",
+      "body": [
+          "\"link#$1\": {\r",
+          "\t\"props\": {\r",
+          "\t\t\"blockClass\": \"$1\",\r",
+          "\t\t\"label\": \"$2\",\r",
+          "\t\t\"href\": \"/$3\",\r",
+          "\t\t\"scrollTo\": \"#$4\",\r",
+          "\t\t\"target\": \"$5\",\r",
+          "\t\t\"displayMode\": \"${6|anchor,button|} \",\r",
+          "\t\t\"buttonProps\": { \r",
+          "\t\t\t\"variant\": \"${7|primary,secondary|}\", \r",
+          "\t\t\t\"size\": \"${8|regular,small,large|}\" \r",
+          "\t\t},\r",
+          "\t\t\"escapeLinkRegex\": \"$9\",\r",
+          "\t\t\"rel\": \"$10\"\r",
+          "\t}\r",
+          "}\r",
+          "$11"
+      ],
+      "description": "disponibiliza blocos responsáveis ​​por exibir links em outros blocos temáticos"
+  },
+  "vtex.link": {
+    "prefix": "vtex.link",
+    "scope": "jsonc,json",
+    "body": [
+        "\"link#$1\": {\r",
+        "\t\"props\": {\r",
+        "\t\t\"blockClass\": \"$1\",\r",
+        "\t\t\"label\": \"$2\",\r",
+        "      ${4\"href\": \"/$3\"\r",
+        "    }\r",
+        "  } \r",
+        "  $11"
+    ],
+    "description": "disponibiliza blocos responsáveis ​​por exibir links em outros blocos temáticos"
+}
+}
