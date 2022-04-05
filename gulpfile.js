@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const gulpMergeJson = require('gulp-merge-json');
+const { watch } = require('gulp');
 
 function joinJSONs(extension) {
   const gulpMergeJsonConfig = {
@@ -24,11 +25,18 @@ function time () {
 }
 
 
-async function dist () {
+async function dev () {
   await joinJSONs('json');
   console.log(time() + ' JSON snippets generated');
   await joinJSONs('css');
   console.log(time() + ' CSS snippets generated');
 }
 
-exports.dist = dist;
+const watchOptions = {
+  delay: 150,
+  ignoreInitial: false,
+}
+
+exports.dev = dev;
+
+watch('src/snippets/**/*.json',watchOptions, dev);
