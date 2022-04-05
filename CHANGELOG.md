@@ -6,4 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.2] - 2022-04-02
+### Added 
+- Publish Beta version of Microsoft Store exetension 
+
 - Initial release
