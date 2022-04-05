@@ -1,0 +1,17 @@
+{
+  "bsc": {
+		"prefix": "bsc",
+		"scope": "jsonc,json",
+		"body": [
+      "\"$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockClass\": \"$2\",\r",
+      "\t},\r",
+      "\t\"children\": {\r",
+      "\t\t\r",
+      "\t},\r",
+      "}"
+  ],
+		"description": "disponibiliza blocos responsáveis ​​por exibir links em outros blocos temáticos"
+	},
+}
