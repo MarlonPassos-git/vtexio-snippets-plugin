@@ -1,0 +1,16 @@
+{
+  "fvtex.search-banner": {
+      "prefix": "fvtex.search-banner",
+      "body": [
+          "\"search-banner#$1\": {\r",
+          "  \"props\": {\r",
+          "    \"blockClass\": \"$1\",\r",
+          "    \"area\": \"$2\",\r",
+          "    \"horizontalAlignment\": \"${4|center,left,center|}\",\r",
+          "  }\r",
+          "}${5:,}\r",
+          "$6"
+      ],
+      "description": "A simple banner with that can configured to appear depending on the context of the search."
+  }
+}
