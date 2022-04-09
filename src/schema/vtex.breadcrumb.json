@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VTEX Blocks",
+  "type": "object",
+  "properties": {
+    "breadcrumb": {
+      "type": "object",
+      "description": "The VTEX BreadCrumb is a navigation scheme that shows a user's browsing history up to their current location in your store.",
+      "properties": {
+        "props": {
+          "properties": {
+            "showOnMobile": {
+              "type": "boolean",
+              "description": "It determines whether Breadcrumb should also be displayed on mobile",
+              "default": false
+            },
+            "homeIconSize": {
+              "type": "number",
+              "description": "Controls the size property of IconHome",
+              "default": 26
+            },
+            "caretIconSize": {
+              "type": "number",
+              "description": "Controls the size property of IconCaret",
+              "default": 8
+            },
+            "blockclass": {
+              "type": "string",
+              "description": "class name"
+            }
+          }
+        }
+      }
+    }
+  }
+}
