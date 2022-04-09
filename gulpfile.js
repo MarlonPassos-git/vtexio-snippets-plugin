@@ -12,6 +12,17 @@ function joinJSONs(extension) {
     .pipe(gulp.dest("dist/snippets"));
 }
 
+function joinSchema() {
+  const gulpMergeJsonConfig = {
+    fileName: `schema.json`,
+  }
+
+  return gulp.src([`src/schema/*.json`])
+    .pipe(gulpMergeJson(gulpMergeJsonConfig))
+    .pipe(gulp.dest("dist/schema"));
+}
+
+
 function time () {
   const data = new Date();
   const hora = data.getHours();
@@ -30,6 +41,8 @@ async function dev () {
   console.log(time() + ' JSON snippets generated');
   await joinJSONs('css');
   console.log(time() + ' CSS snippets generated');
+  await joinSchema();
+  console.log(time() + ' JSON schema generated');
 }
 
 const watchOptions = {
@@ -39,4 +52,4 @@ const watchOptions = {
 
 exports.dev = dev;
 
-watch('src/snippets/**/*.json',watchOptions, dev);
+watch('src/**/*.json',watchOptions, dev);

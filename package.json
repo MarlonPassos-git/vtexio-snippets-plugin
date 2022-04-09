@@ -41,8 +41,8 @@
                 "url": "./src/schema/schema.json"
             },
             {
-                "fileMatch": "src/*.json",
-                "url": "./src/schema/schema.json"
+                "fileMatch": "src/*.jsonc",
+                "url": "./dist/schema/schema.json"
             }
         ]
     },
