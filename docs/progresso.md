@@ -3,7 +3,7 @@
  |Add To Cart Button|x|x|x| x| |
  |Autocomplete|x| | || |
  |Banner| |x| || |
- |Breadcrumb| | | || |
+ |Breadcrumb|x|x|x|x| |
  |Footer| | | || |
  |Google One-Tap Login| | | || |
  |Header| | | || |

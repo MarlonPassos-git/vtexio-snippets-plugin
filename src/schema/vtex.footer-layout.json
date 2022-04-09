@@ -1,0 +1,247 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VTEX Blocks",
+  "type": "object",
+  "properties": {
+    "footer-layout": {
+      "type": "object",
+      "pattern": "",
+      "description": "Footer is a store component that shows information about the store such as address, social networks and payment methods. Furthermore, it is possible to add hyperlinks for privacy policy, FAQ, benefits and attendance. This app is used by store theme.",
+      "properties": {
+        "props": {
+          "properties": {
+            "blockclass": {
+              "type": "string",
+              "description": "class name"
+            }
+          }
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "social-networks",
+            "accepted-payment-methods",
+            "powered-by"
+          ]
+        }
+      }
+    },
+    "social-networks": {
+      "type": "object",
+      "properties": {
+        "props": {
+          "type": "object",
+          "properties": {
+            "blockclass": {
+              "type": "string",
+              "description": "Class name"
+            },
+            "title": {
+              "type": "string",
+              "description": "Text to show above of list of links"
+            },
+            "socialNetworks": {
+              "type": "array",
+              "description": "Array of social networks",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "description": "Link to the social network profile"
+                  },
+                  "name": {
+                    "enum": [
+                      "facebook",
+                      "twitter",
+                      "linkedin",
+                      "youtube",
+                      "pinterest"
+                    ]
+                  }
+                }
+              }
+            },
+            "showInColor": {
+              "type": "boolean",
+              "description": "Whether the icons are colored or not"
+            }
+          }
+        }
+      }
+    },
+    "accepted-payment-methods": {
+      "type": "object",
+      "properties": {
+        "props": {
+          "type": "object",
+          "properties": {
+            "blockclass": {
+              "type": "string",
+              "description": "Class name"
+            },
+            "paymentMethods": {
+              "type": "array",
+              "description": "Array of social networks",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "mastercard",
+                  "visa",
+                  "diners",
+                  "club"
+                ]
+              }
+            },
+            "showInColor": {
+              "type": "boolean",
+              "description": "Whether the icons are colored or not"
+            }
+          }
+        }
+      }
+    },
+    "powered-by": {
+      "type": "object",
+      "properties": {
+        "props": {
+          "type": "object",
+          "properties": {
+            "blockclass": {
+              "type": "string",
+              "description": "Class name"
+            },
+            "showInColor": {
+              "type": "boolean",
+              "description": "Whether the icons are colored or not"
+            }
+          }
+        }
+      }
+    }
+  },
+  "patternProperties": {
+    "^footer-layout#": {
+      "type": "object",
+      "pattern": "",
+      "description": "Footer is a store component that shows information about the store such as address, social networks and payment methods. Furthermore, it is possible to add hyperlinks for privacy policy, FAQ, benefits and attendance. This app is used by store theme.",
+      "properties": {
+        "props": {
+          "properties": {
+            "blockclass": {
+              "type": "string",
+              "description": "class name"
+            }
+          }
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "social-networks",
+            "accepted-payment-methods",
+            "powered-by"
+          ]
+        }
+      }
+    },
+    "^social-networks#": {
+      "type": "object",
+      "properties": {
+        "props": {
+          "type": "object",
+          "properties": {
+            "blockclass": {
+              "type": "string",
+              "description": "Class name"
+            },
+            "title": {
+              "type": "string",
+              "description": "Text to show above of list of links"
+            },
+            "socialNetworks": {
+              "type": "array",
+              "description": "Array of social networks",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "description": "Link to the social network profile"
+                  },
+                  "name": {
+                    "enum": [
+                      "facebook",
+                      "twitter",
+                      "linkedin",
+                      "youtube",
+                      "pinterest"
+                    ]
+                  }
+                }
+              }
+            },
+            "showInColor": {
+              "type": "boolean",
+              "description": "Whether the icons are colored or not"
+            }
+          }
+        }
+      }
+    },
+    "^accepted-payment-methods#": {
+      "type": "object",
+      "properties": {
+        "props": {
+          "type": "object",
+          "properties": {
+            "blockclass": {
+              "type": "string",
+              "description": "Class name"
+            },
+            "paymentMethods": {
+              "type": "array",
+              "description": "Array of social networks",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "mastercard",
+                  "visa",
+                  "diners",
+                  "club"
+                ]
+              }
+            },
+            "showInColor": {
+              "type": "boolean",
+              "description": "Whether the icons are colored or not"
+            }
+          }
+        }
+      }
+    },
+    "^powered-by#": {
+      "type": "object",
+      "properties": {
+        "props": {
+          "type": "object",
+          "properties": {
+            "blockclass": {
+              "type": "string",
+              "description": "Class name"
+            },
+            "showInColor": {
+              "type": "boolean",
+              "description": "Whether the icons are colored or not"
+            }
+          }
+        }
+      }
+    }
+  }
+}

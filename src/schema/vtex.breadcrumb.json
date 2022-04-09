@@ -3,7 +3,7 @@
   "title": "VTEX Blocks",
   "type": "object",
   "patternProperties": {
-    "breadcrumb": {
+    "^breadcrumb#": {
       "type": "object",
       "pattern": "",
       "description": "The VTEX BreadCrumb is a navigation scheme that shows a user's browsing history up to their current location in your store.",
