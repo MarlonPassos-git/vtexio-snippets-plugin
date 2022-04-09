@@ -13,9 +13,9 @@
     "license": "GPL-3.0",
     "icon": "icon.png",
     "repository": {
-		"type": "git",
-		"url": "https://github.com/MarlonPassos-git/vtexio-snippets-plugin.git"
-	},
+        "type": "git",
+        "url": "https://github.com/MarlonPassos-git/vtexio-snippets-plugin.git"
+    },
     "contributes": {
         "snippets": [
             {
@@ -32,17 +32,29 @@
             },
             {
                 "language": "css",
-                "path": "./dist/snippets/snippets.scss.code-snippets"
+                "path": "dist/snippets/snippets.css.code-snippets"
+            }
+        ],
+        "jsonValidation": [
+            {
+                "fileMatch": "src/*.json",
+                "url": "./src/schema/schema.json"
+            },
+            {
+                "fileMatch": "src/*.json",
+                "url": "./src/schema/schema.json"
             }
         ]
     },
     "scripts": {
         "dev": "gulp dev"
     },
-    "dependencies": {},
+    "dependencies": {
+        "global": "^4.4.0",
+        "typescript-json-schema": "^0.53.0"
+    },
     "devDependencies": {
         "gulp": "^4.0.2",
         "gulp-merge-json": "^2.1.2"
     }
-
 }

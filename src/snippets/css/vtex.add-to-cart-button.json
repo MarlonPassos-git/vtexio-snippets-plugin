@@ -1,36 +1,20 @@
 {
-  "fvtex.add-to-cart-button": {
-    "prefix": "fvtex.add-to-cart-button",
-    "scope": "json,jsonc",
-    "body": [
-      "\"add-to-cart-button#$1\": {\r",
-      "\t\"props\": {\r",
-      "\t\t\"blockClass\": \"$1\",\r",
-      "\t\t\"onClickBehavior\": \"${2|add-to-cart,go-to-product-page,ensure-sku-selection|}\",\r",
-      "\t\t\"onClickEventPropagation\": \"${4|disabled,enabled|}\",\r",
-      "\t\t\"isOneClickBuy\": ${5|false,true|},\r",
-      "\t\t\"customOneClickBuyLink\": \"${6:/checkout/#/cart}\",\r",
-      "\t\t\"customToastUrl\": \"${7:/checkout/#/cart}\",\r",
-      "\t\t\"text\": \"$8\",\r",
-      "\t\t\"unavailableText\": \"$9\",\r",
-      "\t\t\"customPixelEventId\": \"$10\"\r",
-      "\t}\r",
-      "}${11:,}\r",
-      "$12"
-    ],
-    "description": "bloco responsável por adicionar produtos no Minicarrinho"
-  },
   "vtex.add-to-cart-button": {
-    "prefix": "vtex.add-to-cart-button",
-    "scope": "json,jsonc",
-    "body": [
-      "\"add-to-cart-button#$1\": {\r",
-      "\t\"props\": {\r",
-      "\t\t\"blockClass\": \"$1\",\r",
-      "\t}\r",
-      "}${11:,}\r",
-      "$12"
-    ],
-    "description": "bloco responsável por adicionar produtos no Minicarrinho"
+      "prefix": "vtex.add-to-cart-button",
+      "scope": "scss,css",
+      "body": [
+          ".buttonText--$1 {\r",
+          "\r",
+          "}\r",
+          "\r",
+          ".buttonDataContainer--$1 {\r",
+          "\r",
+          "}\r",
+          "\r",
+          ".tooltipLabelText--$1 {\r",
+          "\r",
+          "}"
+      ],
+      "description": "bloco responsável por adicionar produtos no Minicarrinho"
   }
 }

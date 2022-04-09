@@ -6,6 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.2.0] - 2022-04-09
+### Added 
+- Added the possibility to have smart autocomplet on JSON/JSONC files using JSON Schema
 ## [0.1.0] - 2022-04-04
 ### Added
 - ``fvtex.autocomplete-result-list.v2``

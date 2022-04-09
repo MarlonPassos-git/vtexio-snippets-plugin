@@ -1,4 +1,7 @@
 
+<img src="./docs/img/auto-complete.gif"/>
+<img src="./docs/img/vtex%20snipets.gif"/>
+
 
 # Objetivo
 

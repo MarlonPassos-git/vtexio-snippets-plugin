@@ -1,32 +1,14 @@
-"autocomplete-result-list.v2#$1": {
-  "props": {
-    "blockClass": "$1",
-    "maxTopSearches": ${2:10},
-    "maxHistory": ${3:5},
-    "maxSuggestedProducts": ${4:3},
-    "maxSuggestedTerms": ${5:3},
-    "autocompleteWidth": $6,
-    "productLayout": "$7",
-    "hideTitles": ${8|false,true|},
-    "historyFirst": ${9|false,true|},
-    "customBreakpoints": {
-      "md": {
-        "width": $10,
-        "maxSuggestedProducts": $11,
-      }
-      "lg": {
-        "width": $12,
-        "maxSuggestedProducts": $13,
-      },
-      "xl": {
-        "width": $14,
-        "maxSuggestedProducts": $15,
-      }
-    },
-    "__unstableProductOriginVtex": ${16|false,true|},
-    "simulationBehavior": "${17|default,skip|}",
-    "customPage": "${18:store.search}",
-    "orderBy": "${19|OrderByScoreDESC,OrderByTopSaleDESC,OrderByReleaseDateDESC,OrderByBestDiscountDESC,OrderByPriceDESC,OrderByPriceASC,OrderByNameASC,OrderByNameDESC|}",
+{
+  "add-to-cart-button#product": {
+    "props": {
+      "blockClass": "product",
+      "onClickBehavior": "add-to-cart",
+      "onClickEventPropagation": "disabled",
+      "isOneClickBuy": false,
+      "customOneClickBuyLink": "/checkout/#/cart",
+      "customToastUrl": "/checkout/#/cart",
+      "text": "Add to Cart",
+      "unavailableText": "Product is not available"
+    }
   }
-}${20:,}
-$21
+}
