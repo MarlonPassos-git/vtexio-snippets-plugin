@@ -10,6 +10,14 @@
 - Ter atalhos que vão ajudar no desenvolvimento projeto VTEX na estrutura JSON, SCSS e REACT
 - Ser um plugin do VSCode
 
+# Caracteristicas 
+- snippets
+  - CSS
+  - JSON
+- auto complete inteligente
+- Documentação VTEX inbutida 
+- Mostra Valores que vem por padrao em cada propriedade
+- Verifica erros na escrita dos blocos JSON
 
 
 
