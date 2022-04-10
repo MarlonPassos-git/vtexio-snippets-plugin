@@ -11,9 +11,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Added the possibility to have smart autocomplet on JSON/JSONC files using JSON Schema
 - vtex.breadcrumb (schema, json, css)
 - vtex.footer (schema, json, css)
-- vtex.social-networks
-- vtex.accepted-payment-methods
-- vtex.accepted-payment-methods
+- vtex.social-networks (schema, json, css)
+- vtex.accepted-payment-methods (schema, json, css)
+- vtex.powered-by (schema, json, css)
 ## [0.1.0] - 2022-04-04
 ### Added
 - ``fvtex.autocomplete-result-list.v2``

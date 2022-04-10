@@ -4,7 +4,7 @@
  |Autocomplete|x| | || |
  |Banner| |x| || |
  |Breadcrumb|x|x|x|x| |
- |Footer| | | || |
+ |Footer|x|x|x|x| |
  |Google One-Tap Login| | | || |
  |Header| | | || |
  |Locale Switcher| | | || |
