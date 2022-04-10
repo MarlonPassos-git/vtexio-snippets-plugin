@@ -1,0 +1,16 @@
+{
+  "vtex.did-you-mean": {
+      "prefix": "vtex.did-you-mean",
+      "body": [
+          ".didYouMeanPrefix--$1 {\r",
+          "\r",
+          "}\r",
+          "\r",
+          ".didYouMeanTerm--$1 {\r",
+          "\r",
+          "}\r",
+          ""
+      ],
+      "description": "DidYouMean is a component used to suggest a possible misspelling correction to the current query."
+  }
+}
