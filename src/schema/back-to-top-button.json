@@ -14,6 +14,10 @@
           "additionalProperties": false,
           "markdownDescription": "All available properties for this block.",
           "properties": {
+            "blockClass": {
+              "type": "string",
+              "description": "Class Name"
+            },
             "displayThreshold": {
               "type": "number",
               "markdownDescription": "`number`\n\nDefines the window Y pixel in which the button will be displayed.",
@@ -54,6 +58,10 @@
               "type": "number",
               "markdownDescription": "`number`\n\nDefines the window Y pixel in which the button will be displayed.",
               "default": 600
+            },
+            "blockClass": {
+              "type": "string",
+              "description": "Class Name"
             },
             "display": {
               "type": "string",

@@ -1,0 +1,26 @@
+{
+  "fvtex.back-to-top-button": {
+    "prefix": "fvtex.back-to-top-button",
+    "body": [
+      "\"back-to-top-button#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockClass\": \"$1\",\r",
+      "\t\t\"displayThreshold\": $2,\r",
+      "\t\t\"display\": $3\r",
+      "\t}\r",
+      "}"
+    ],
+    "description": ""
+  },
+  "vtex.back-to-top-button": {
+    "prefix": "vtex.back-to-top-button",
+    "body": [
+      "\"back-to-top-button#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockClass\": \"$1\"\r",
+      "\t}\r",
+      "}"
+    ],
+    "description": ""
+  }
+}
