@@ -14,6 +14,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - vtex.social-networks (schema, json, css)
 - vtex.accepted-payment-methods (schema, json, css)
 - vtex.powered-by (schema, json, css)
+- vtex.back-to-top-button (schema)
 ## [0.1.0] - 2022-04-04
 ### Added
 - ``fvtex.autocomplete-result-list.v2``

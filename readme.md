@@ -1,4 +1,7 @@
-<img src="./docs/img/vtex%20snipets.gif"></img>
+
+<img src="./docs/img/auto-complete.gif"/>
+<img src="./docs/img/vtex%20snipets.gif"/>
+
 
 # Objetivo
 
@@ -7,6 +10,14 @@
 - Ter atalhos que vão ajudar no desenvolvimento projeto VTEX na estrutura JSON, SCSS e REACT
 - Ser um plugin do VSCode
 
+# Caracteristicas 
+- snippets
+  - CSS
+  - JSON
+- auto complete inteligente
+- Documentação VTEX inbutida 
+- Mostra Valores que vem por padrao em cada propriedade
+- Verifica erros na escrita dos blocos JSON
 
 
 

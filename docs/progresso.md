@@ -38,7 +38,7 @@
  |Store Components| | | || |
  |Autocomplete Result List| | | || |
  |Availability Subscriber| | | || |
- |Back To Top Button| | | || |
+ |Back To Top Button| | |x|| |
  |Image| | | || |
  |Info Card| | | || |
  |Logo| | | || |
