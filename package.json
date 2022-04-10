@@ -1,9 +1,9 @@
 {
-    "name": "vtexio-snippets-plugin",
-    "displayName": "vtexio snippets plugin",
-    "description": "c",
+    "name": "vtex-io-tools",
+    "displayName": "VTEX IO Tools 🛠",
+    "description": "VTEX IO: snippets JSON, snippets CSS, autocomplete in JSON, integrated documentation and JSON error checking",
     "publisher": "1marlonpassos",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "engines": {
         "vscode": "^1.66.0"
     },
