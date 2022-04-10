@@ -10,7 +10,7 @@
  |Locale Switcher| | | || |
  |Login| | | || |
  |Menu| | | || |
- |Minicart| | | || |
+ |Minicart|✅|✅|✅|✅| |
  |Order Placed| | | || |
  |Product Customizer| | | || |
  |Product Highlights| | | || |
@@ -29,7 +29,7 @@
  |Product Summary Shelf| | | || |
  |Product Summary SKU Selector| | | || |
  |Product Summary SKU Name| | | || |
- |Rich Text| | | || |
+ |Rich Text|✅|✅|✅|✅| |
  |Search| | | || |
  |Suggestions| | | || |
  |DidYouMean| | | || |
