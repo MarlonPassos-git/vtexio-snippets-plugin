@@ -1,0 +1,41 @@
+{
+  "fvtex.minicart.v2": {
+    "prefix": "fvtex.minicart.v2",
+    "body": [
+      "\"minicart.v2#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockclass\": \"$1\",\r",
+      "\t\t\"backdropMode\": $2,\r",
+      "\t\t\"customPixelEventId\": $3,\r",
+      "\t\t\"customPixelEventName\": $4,\r",
+      "\t\t\"drawerSlideDirection\": $5,\r",
+      "\t\t\"itemCountMode\": $6,\r",
+      "\t\t\"linkVariationUrl\": $7,\r",
+      "\t\t\"maxDrawerWidth\": $8,\r",
+      "\t\t\"MinicartIcon\": $9,\r",
+      "\t\t\"openOnHover\": $10,\r",
+      "\t\t\"quantityDisplay\": $11,\r",
+      "\t\t\"variation\": $12\r",
+      "\t},\r",
+      "\t\"children\": {  \r",
+      "\t\t$13\r",
+      "}"
+    ],
+    "description": "The VTEX Minicart is a block that displays a summary list of all items added by customers in their shopping cart. Its data is fetched from the Checkout OrderForm API."
+  },
+  "vtex.minicart.v2": {
+    "prefix": "vtex.minicart.v2",
+    "body": [
+      "\"minicart.v2#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockclass\": \"$1\",\r",
+      "\t\t\"itemCountMode\": $6,\r",
+      "\t\t\"maxDrawerWidth\": $8,\r",
+      "\t},\r",
+      "\t\"children\": {  \r",
+      "\t\t$13\r",
+      "}"
+    ],
+    "description": "The VTEX Minicart is a block that displays a summary list of all items added by customers in their shopping cart. Its data is fetched from the Checkout OrderForm API."
+  }
+}

@@ -43,7 +43,7 @@
     }
   },
   "patternProperties": {
-    "back-to-top-button": {
+    "^back-to-top-button#": {
       "type": "object",
       "additionalProperties": false,
       "title": "Back To Top Button",
