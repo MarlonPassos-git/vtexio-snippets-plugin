@@ -1,0 +1,103 @@
+{
+  "fvtex.footer-layout": {
+    "prefix": "fvtex.footer-layout",
+    "body": [
+      "\"footer-layout#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockclass\": \"$1\"\r",
+      "\t},\r",
+      "\t\"children\": [\r",
+      "$2",
+      "    ]\r",
+      "},"
+    ],
+    "description": ""
+  },
+  "vtex.footer-layout": {
+    "prefix": "vtex.footer-layout",
+    "body": [
+      "\"footer-layout#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockclass\": \"$1\"\r",
+      "\t},\r",
+      "\t\"children\": [\r",
+      "$2",
+      "    ]\r",
+      "},"
+    ],
+    "description": ""
+  },
+  "fvtex.social-networks": {
+    "prefix": "fvtex.social-networks",
+    "body": [
+      "\"social-networks#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockclass\": \"$1\",\r",
+      "\t\t\"socialNetworks\": $2,\r",
+      "\t\t\"showInColor\": $3,\r",
+      "\t\t\"title\": $4\"\"\r",
+      "\t}\r",
+      "},"
+    ],
+    "description": ""
+  },
+  "vtex.social-networks": {
+    "prefix": "vtex.social-networks",
+    "body": [
+      "\"social-networks#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockclass\": \"$1\",\r",
+      "\t}\r",
+      "},"
+    ],
+    "description": ""
+  },
+  "fvtex.accepted-payment-methods": {
+    "prefix": "fvtex.accepted-payment-methods",
+    "body": [
+      "\"accepted-payment-methods#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockclass\": \"$1\",\r",
+      "\t\t\"paymentMethods\": $2,\r",
+      "\t\t\"showInColor\": $3\r",
+      "\t}\r",
+      "},"
+    ],
+    "description": ""
+  },
+  "vtex.accepted-payment-methods": {
+    "prefix": "vtex.accepted-payment-methods",
+    "body": [
+      "\"accepted-payment-methods#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockclass\": \"$1\",\r",
+      "\t}\r",
+      "},"
+    ],
+    "description": ""
+  },
+  "fvtex.powered-by": {
+    "prefix": "fvtex.powered-by",
+    "body": [
+      "\"powered-by#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockclass\": \"$1\",\r",
+      "\t\t\"showInColor\": $2\r",
+      "\t}\r",
+      "}"
+    ],
+    "description": ""
+  },
+  "vtex.powered-by": {
+    "prefix": "vtex.powered-by",
+    "body": [
+      "\"powered-by#$1\": {\r",
+      "\t\"props\": {\r",
+      "\t\t\"blockclass\": \"$1\",\r",
+      "\t}\r",
+      "}"
+    ],
+    "description": ""
+  }
+
+}
