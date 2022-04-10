@@ -34,8 +34,7 @@ Alguns snippets CSS/SCSS devido a grande quantidade de classes existe uma versã
 
 # Como instalar os snippets 
 
-1. Copie os aquivos ``.code-snippets`` da pasta ``.vscode`` para dentro da pasta ``.vscode`` na raiz do seu projeto
-2. Divirta-se 😃
+1. 
 
 # Como contribuir
 1. [Baixe a extensao Convert text/code to a snippet](https://marketplace.visualstudio.com/items?itemName=nsfilho.tosnippet). Ela vai ajudar no processo de criação de novos snippets.

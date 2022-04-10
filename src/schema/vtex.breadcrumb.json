@@ -4,9 +4,10 @@
   "type": "object",
   "patternProperties": {
     "^breadcrumb#": {
+      "additionalProperties": false,
       "type": "object",
       "pattern": "",
-      "description": "The VTEX BreadCrumb is a navigation scheme that shows a user's browsing history up to their current location in your store.",
+      "markdownDescription": "https://developers.vtex.com/vtex-developer-docs/docs/vtex-breadcrumb\n\nThe VTEX BreadCrumb is a navigation scheme that shows a user's browsing history up to their current location in your store.\n\n`\"vtex.breadcrumb@1.x\"`",
       "properties": {
         "props": {
           "properties": {
@@ -38,7 +39,7 @@
     "breadcrumb": {
       "type": "object",
       "pattern": "",
-      "description": "The VTEX BreadCrumb is a navigation scheme that shows a user's browsing history up to their current location in your store.",
+      "markdownDescription": "https://developers.vtex.com/vtex-developer-docs/docs/vtex-breadcrumb\n\nThe VTEX BreadCrumb is a navigation scheme that shows a user's browsing history up to their current location in your store.\n\n`\"vtex.breadcrumb@1.x\"`",
       "properties": {
         "props": {
           "properties": {

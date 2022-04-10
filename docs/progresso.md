@@ -38,7 +38,7 @@
  |Store Components| | | || |
  |Autocomplete Result List| | | || |
  |Availability Subscriber| | | || |
- |Back To Top Button| | |x|| |
+ |Back To Top Button|x|x|x|x| |
  |Image| | | || |
  |Info Card| | | || |
  |Logo| | | || |
@@ -95,7 +95,7 @@
  |Product Context| | | || |
  |Responsive Values| | | || |
  |Store Icons| | | || |
- |Store Sitemap| | | || |
+ |Store Sitemap| | |✅|| |
  |VTEX Telemarketing| | | || |
  |Layout Apps| | | || |
  |Condition Layout| | | || |
