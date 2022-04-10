@@ -1,0 +1,77 @@
+{
+  "vtex.footer-layout": {
+    "prefix": "vtex.footer-layout",
+    "body": [
+      ".footerLayout--$1 {\r",
+      "\r",
+      "}\r",
+      ".footerLayoutSpacer--$1 {\r",
+      "  \r",
+      "}"
+    ],
+    "description": ""
+  },
+  "vtex.social-networks": {
+    "prefix": "vtex.social-networks",
+    "body": [
+      ".socialNetworksTitle--$1 {\r",
+      "\r",
+      "}\r",
+      "\r",
+      ".socialNetworksContainer--$1 {\r",
+      "\r",
+      "}\r",
+      "\r",
+      ".socialNetworkWrapper--$1 {\r",
+      "\r",
+      "}\r",
+      "\r",
+      ".socialNetworkLink--$1 {\r",
+      "\r",
+      "}\r",
+      "\r",
+      ".socialNetworkImage--$1 {\r",
+      "\r",
+      "}\r",
+      ""
+    ],
+    "description": ""
+  },
+  "vtex.accepted-payment-methods": {
+    "prefix": "vtex.accepted-payment-methods",
+    "body": [
+      ".acceptedPaymentMethodContainer--$1 {\r",
+      "\r",
+      "}\r",
+      "\r",
+      ".paymentMethodIcon--$1 {\r",
+      "\r",
+      "}\r",
+      "\r",
+      ".paymentMethodIconImage--$1 {\r",
+      "\r",
+      "}\r",
+      ""
+    ],
+    "description": ""
+  },
+  "vtex.powered-by": {
+    "prefix": "vtex.powered-by",
+    "body": [
+      ".poweredBy--$1 {\r",
+      "\r",
+      "}\r",
+      "\r",
+      ".poweredByImage--$1 {\r",
+      "\r",
+      "}\r",
+      "\r",
+      ".poweredByLink--$1 {\r",
+      "\r",
+      "}\r",
+      ""
+    ],
+    "description": ""
+  }
+
+}

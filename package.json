@@ -2,46 +2,59 @@
     "name": "vtexio-snippets-plugin",
     "displayName": "vtexio snippets plugin",
     "description": "c",
-    "version": "0.0.1",
+    "publisher": "1marlonpassos",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.66.0"
     },
     "categories": [
         "Snippets"
     ],
-    "icon": "images/icon.jpg",
     "license": "GPL-3.0",
+    "icon": "icon.png",
     "repository": {
-		"type": "git",
-		"url": "https://github.com/MarlonPassos-git/vtexio-snippets-plugin"
-	},
+        "type": "git",
+        "url": "https://github.com/MarlonPassos-git/vtexio-snippets-plugin.git"
+    },
     "contributes": {
         "snippets": [
             {
                 "language": "json",
-                "path": "./dist/snippets/snippets.json.code-snippets"
+                "path": "dist/snippets/snippets.json.code-snippets"
             },
             {
                 "language": "jsonc",
-                "path": "./dist/snippets/snippets.json.code-snippets"
+                "path": "dist/snippets/snippets.json.code-snippets"
             },
             {
                 "language": "scss",
-                "path": "./dist/snippets/snippets.css.code-snippets"
+                "path": "dist/snippets/snippets.css.code-snippets"
             },
             {
                 "language": "css",
-                "path": "./dist/snippets/snippets.scss.code-snippets"
+                "path": "dist/snippets/snippets.css.code-snippets"
+            }
+        ],
+        "jsonValidation": [
+            {
+                "fileMatch": "src/*.json",
+                "url": "./dist/schema/schema.json"
+            },
+            {
+                "fileMatch": "src/*.jsonc",
+                "url": "./dist/schema/schema.json"
             }
         ]
     },
     "scripts": {
-        "dist": "gulp dist"
+        "dev": "gulp dev"
     },
-    "dependencies": {},
+    "dependencies": {
+        "global": "^4.4.0",
+        "typescript-json-schema": "^0.53.0"
+    },
     "devDependencies": {
         "gulp": "^4.0.2",
         "gulp-merge-json": "^2.1.2"
     }
-
 }

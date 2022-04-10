@@ -1,0 +1,14 @@
+{
+  "add-to-cart-button#product": {
+    "props": {
+      "blockClass": "product",
+      "onClickBehavior": "add-to-cart",
+      "onClickEventPropagation": "disabled",
+      "isOneClickBuy": false,
+      "customOneClickBuyLink": "/checkout/#/cart",
+      "customToastUrl": "/checkout/#/cart",
+      "text": "Add to Cart",
+      "unavailableText": "Product is not available"
+    }
+  }
+}

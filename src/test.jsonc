@@ -1,0 +1,18 @@
+{
+  "link#": {
+    "props": {
+      "blockClass": "",
+      "label": "",
+      "href": "/",
+      "scrollTo": "#",
+      "target": "",
+      "displayMode": "anchor ",
+      "buttonProps": { 
+        "variant": "primary", 
+        "size": "regular" 
+      },
+      "escapeLinkRegex": "",
+      "rel": ""
+    }
+  }
+}

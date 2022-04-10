@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const gulpMergeJson = require('gulp-merge-json');
+const { watch } = require('gulp');
 
 function joinJSONs(extension) {
   const gulpMergeJsonConfig = {
@@ -10,6 +11,17 @@ function joinJSONs(extension) {
     .pipe(gulpMergeJson(gulpMergeJsonConfig))
     .pipe(gulp.dest("dist/snippets"));
 }
+
+function joinSchema() {
+  const gulpMergeJsonConfig = {
+    fileName: `schema.json`,
+  }
+
+  return gulp.src([`src/schema/*.json`])
+    .pipe(gulpMergeJson(gulpMergeJsonConfig))
+    .pipe(gulp.dest("dist/schema"));
+}
+
 
 function time () {
   const data = new Date();
@@ -24,11 +36,20 @@ function time () {
 }
 
 
-async function dist () {
+async function dev () {
   await joinJSONs('json');
   console.log(time() + ' JSON snippets generated');
   await joinJSONs('css');
   console.log(time() + ' CSS snippets generated');
+  await joinSchema();
+  console.log(time() + ' JSON schema generated');
 }
 
-exports.dist = dist;
+const watchOptions = {
+  delay: 150,
+  ignoreInitial: false,
+}
+
+exports.dev = dev;
+
+watch('src/**/*.json',watchOptions, dev);

@@ -1,0 +1,11 @@
+{
+  "vtex.search-banner": {
+      "prefix": "vtex.search-banner",
+      "body": [
+        "searchBanner--$1 {",
+        "",
+        "}"
+      ],
+      "description": "A simple banner with that can configured to appear depending on the context of the search."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fvtex.breadcrumb": {
+      "prefix": "fvtex.breadcrumb",
+      "body": [
+          "\"breadcrumb#$1\": {\r",
+          "\t\"props\": {\r",
+          "\t\t\"blockclass\": \"$1\",\r",
+          "\t\t\"caretIconSize\": $2,\r",
+          "\t\t\"showOnMobile\": $3,\r",
+          "\t\t\"homeIconSize\": $4\r",
+          "\t}\r",
+          "}"
+      ],
+      "description": "The VTEX BreadCrumb is a navigation scheme that shows a user's browsing history up to their current location in your store."
+  },
+  "vtex.breadcrumb": {
+    "prefix": "vtex.breadcrumb",
+    "body": [
+        "\"breadcrumb#$1\": {\r",
+        "\t\"props\": {\r",
+        "\t\t\"blockclass\": \"$1\",\r",
+        "\t\t\"caretIconSize\": $2,\r",
+        "\t\t\"homeIconSize\": $4\r",
+        "\t}\r",
+        "}"
+    ],
+    "description": "The VTEX BreadCrumb is a navigation scheme that shows a user's browsing history up to their current location in your store."
+  }
+}

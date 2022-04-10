@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VTEX Blocks",
+  "type": "object",
+  "properties": {
+    "add-to-cart": {
+      "type": "object",
+       "description": "The add-to-cart-button is a block responsible for adding products in the Minicart (minicart.v2).",
+      "properties": {
+        "props": {
+          "properties": {
+            "customOneClickBuyLink": {
+              "type": "string",
+              "description": "Defines the link to where users will be redirected when the Add To Cart Button is clicked on and the isOneClickBuy prop is set to true.",
+              "default": "/checkout/#/cart"
+            },
+            "customPixelEventId": {
+              "type": "string",
+              "description": "Define the id for the event that will be sent by the the button upon user interaction."
+            },
+            "customToastUrl": {
+              "type": "string",
+              "description": "Defines the link to where users will be redirected when the Toast (pop-up notification displayed when adding an item to the minicart) is clicked on.",
+              "default": "/checkout/#/cart"
+            },
+            "isOneClickBuy": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether the user should be redirected to the checkout page (true) or not (false) when the Add To Cart Button is clicked on."
+            },
+            "onClickBehavior": {
+              "enum": [
+                "add-to-cart",
+                "ensure-sku-selection",
+                "go-to-product-page"
+              ],
+              "type": "string",
+              "default": "add-to-cart",
+              "description": "Controls what happens when users click on the button. Possible values are: go-to-product-page, add-to-cart, and ensure-sku-selection (if multiple SKUs are available, users will be redirected to the product page to select the desired one. If the product only has 1 SKU available, it will be added to the cart once the button is clicked on)."
+            },
+            "onClickEventPropagation": {
+              "enum": [
+                "disabled",
+                "enabled"
+              ],
+              "type": "string",
+              "default": "disabled",
+              "description": "Controls whether the 'onClick' event (triggered upon user clicks) should be spread to the page's parent elements. Possible values are: disabled and enabled."
+            },
+            "text": {
+              "type": "string",
+              "description": "Defines a custom text message to be displayed on the Add To Cart Button."
+            },
+            "unavailableText": {
+              "type": "string",
+              "description": "Defines a custom text message to be displayed on the Add To Cart Button when a product is unavailable."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "fvtex.autocomplete-result-list.v2": {
+      "prefix": "fvtex.autocomplete-result-list.v2",
+      "body": [
+          "\"autocomplete-result-list.v2#$1\": {\r",
+          "\t\"props\": {\r",
+          "\t\t\"blockClass\": \"$1\",\r",
+          "\t\t\"maxTopSearches\": ${2:10},\r",
+          "\t\t\"maxHistory\": ${3:5},\r",
+          "\t\t\"maxSuggestedProducts\": ${4:3},\r",
+          "\t\t\"maxSuggestedTerms\": ${5:3},\r",
+          "\t\t\"autocompleteWidth\": $6,\r",
+          "\t\t\"productLayout\": \"$7\",\r",
+          "\t\t\"hideTitles\": ${8|false,true|},\r",
+          "\t\t\"historyFirst\": ${9|false,true|},\r",
+          "\t\t\"customBreakpoints\": {\r",
+          "\t\t\t\"md\": {\r",
+          "\t\t\t\t\"width\": $10,\r",
+          "\t\t\t\t\"maxSuggestedProducts\": $11,\r",
+          "\t\t\t},\r",
+          "\t\t\t\"lg\": {\r",
+          "\t\t\t\t\"width\": $12,\r",
+          "\t\t\t\t\"maxSuggestedProducts\": $13,\r",
+          "\t\t\t},\r",
+          "\t\t\t\"xl\": {\r",
+          "\t\t\t\t\"width\": $14,\r",
+          "\t\t\t\t\"maxSuggestedProducts\": $15,\r",
+          "\t\t\t}\r",
+          "\t\t},\r",
+          "\t\t\"__unstableProductOriginVtex\": ${16|false,true|},\r",
+          "\t\t\"simulationBehavior\": \"${17|default,skip|}\",\r",
+          "\t\t\"customPage\": \"${18:store.search}\",\r",
+          "\t\t\"orderBy\": \"${19|OrderByScoreDESC,OrderByTopSaleDESC,OrderByReleaseDateDESC,OrderByBestDiscountDESC,OrderByPriceDESC,OrderByPriceASC,OrderByNameASC,OrderByNameDESC|}\",\r",
+          "\t}\r",
+          "}${20:,}\r",
+          "$21"
+      ],
+      "description": ""
+  }
+}

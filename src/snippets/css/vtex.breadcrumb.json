@@ -1,0 +1,23 @@
+{
+  "vtex.breadcrumb": {
+    "prefix": "vtex.breadcrumb",
+    "body": [
+      ".container--$1 {\r",
+      "\r",
+      "}\r",
+      ".link--$1 {\r",
+      "\r",
+      "}\r",
+      ".arrow--$1 {\r",
+      "\r",
+      "}\r",
+      ".homeLink--$1 {\r",
+      "\r",
+      "}\r",
+      ".termArrow--$1 {\r",
+      "\r",
+      "}"
+    ],
+    "description": "The VTEX BreadCrumb is a navigation scheme that shows a user's browsing history up to their current location in your store."
+  }
+}
