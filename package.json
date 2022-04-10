@@ -37,11 +37,10 @@
         ],
         "jsonValidation": [
             {
-                "fileMatch": "src/*.json",
-                "url": "./dist/schema/schema.json"
-            },
-            {
-                "fileMatch": "src/*.jsonc",
+                "fileMatch": [
+					"**/store/**/*.jsonc",
+					"**/store/**/*.json"
+				],
                 "url": "./dist/schema/schema.json"
             }
         ]

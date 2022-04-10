@@ -30,14 +30,17 @@
 
 ## Como usar
 
-Todos os snippets começam do ``vtex.``, logo para usalos escreva ``vtex.nomedoblocovtex`` e aperte TAB no autocomplete do VSCode.<br/> Exemplo: Se eu quero os snippets do bloco flex-layout eu vou digitar ``vtex.flex-layout``
+### Snippets
+Dentro de aquivos JSON/JSONC existem 2 tipos de snippets, os com o prefixo ``vtex.``. e os com ``fvtex.``.
+- ``fvtex.`` -> Cria um objeto JSON com todas as propriedades do componente VTEX
+- ``vtex.`` -> Cria um objeto JSON com as propriedades mais usadas do componente VTEX       
 
-Como algumas propriedades geralmente são pouco usadas e o intuito dessa ferramenta é acelerar o desenvolvimento, na verção JSON existem dois tipos de prefixos de  snipets:
+Depois do prefixo escreva o nome do componente VTEX que deseja, exemplo:
 
-- vtex. -> Verção resumida com as propriedades mais usadas
-- fvtex. -> Verção completa com todas as propriedades 
+vtex.flex
+```json
 
-Alguns snippets CSS/SCSS devido a grande quantidade de classes existe uma versão com comentarios no topo para facilitar a localização no codigo para os iniciantes. Em vez de usar o prefixo <s>``vtex.``</s> use ``cvtex.``
+```
 
 ## Como Instalar 
 
