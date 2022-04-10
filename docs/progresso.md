@@ -1,4 +1,10 @@
-| Blocoos | json - full | json - most used |json - schema| css | css + comentarios | 
+<h1 align="center">Progresso</h1>
+
+- ✅ -> Concluido.
+- 🚫 -> Não tem necessidade ou não existe.
+- ⚠ -> Concluido mas tem algum problema
+
+| Blocos | json - full | json - most used |json - schema| css | css + comentarios | 
 |---------|------|------|------|--------------------|--------------------|
  |Add To Cart Button|x|x|x| x| |
  |Autocomplete|x| | || |
@@ -32,7 +38,7 @@
  |Rich Text|✅|✅|✅|✅| |
  |Search| | | || |
  |Suggestions| | | || |
- |DidYouMean| | | || |
+ |DidYouMean|🚫|🚫|🚫|✅| |
  |Search Result| | | || |
  |Store Image| | | || |
  |Store Components| | | || |
