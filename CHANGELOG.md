@@ -1,11 +1,4 @@
 # Change Log
-
-All notable changes to the "b" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
 ## [0.2.0] - 2022-04-09
 ### Added 
 - Added the possibility to have smart autocomplet on JSON/JSONC files using JSON Schema
@@ -18,6 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - vtex.Minicart (schema, json, css)
 - vtex.store-icons (schema, json, css)
 - vtex.rich-text (schema, json, css)
+- vtex.did-you-mean (css)
 ## [0.1.0] - 2022-04-04
 ### Added
 - ``fvtex.autocomplete-result-list.v2``

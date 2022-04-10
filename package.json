@@ -3,7 +3,7 @@
     "displayName": "vtexio snippets plugin",
     "description": "c",
     "publisher": "1marlonpassos",
-    "version": "0.0.2",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.66.0"
     },
