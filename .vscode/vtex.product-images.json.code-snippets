@@ -1,0 +1,54 @@
+{
+  "fvtex.product-images": {
+      "prefix": "fvtex.product-images",
+      "scope": "json,jsonc",
+      "body": [
+          "\"product-images#$1\": {\r",
+          "\t\"props\": {\r",
+          "\t\t\"blockClass\": \"$1\",\r",
+          "\t\t\"aspectRatio\": \"${2:auto}\",\r",
+          "\t\t\"contentOrder\": \"${3|images-first,videos-first|}\",\r",
+          "\t\t\"contentType\": \"${4|all,images,videos|}\",\r",
+          "\t\t\"displayMode\": \"${5|carousel,list,first-image|}\",\r",
+          "\t\t\"displayThumbnailsArrows\": ${6|false,true|},\r",
+          "\t\t\"hiddenImages\": \"${7:skuvariation}\",\r",
+          "\t\t\"maxHeight\": ${8:600},\r",
+          "\t\t\"ModalZoom\": \"$9\",\r",
+          "\t\t\"placeholder\": \"$10\",\r",
+          "\t\t\"position\": \"${11|left,right|}\",\r",
+          "\t\t\"showNavigationArrows\": ${12|true,false|},\r",
+          "\t\t\"showPaginationDots\": ${13|true,false|},\r",
+          "\t\t\"thumbnailVisibility\": \"${14|visible,hidden|}\",\r",
+          "\t\t\"thumbnailAspectRatio\": \"${15:auto}\",\r",
+          "\t\t\"thumbnailMaxHeight\": \"${16:150}\",\r",
+          "\t\t\"thumbnailsOrientation\": \"${17|vertical,horizontal|}\",\r",
+          "\t\t\"zoomFactor\": \"${18:2}\",\r",
+          "\t\t\"zoomMode\": \"${19|in-place-click,in-place-hover,disabled,open-modal|}\"\r",
+          "\t}\r",
+          "},",
+          "$21"
+      ],
+      "description": "O bloco é responsável por renderizar uma imagem ou vídeo do produto"
+  },
+  "vtex.product-images": {
+    "prefix": "vtex.product-images",
+    "scope": "json,jsonc",
+    "body": [
+        "\"product-images#$1\": {\r",
+        "\t\"props\": {\r",
+        "\t\t\"blockClass\": \"$1\",\r",
+        "\t\t\"aspectRatio\": \"${2:auto}\",\r",
+        "\t\t\"maxHeight\": ${3:600},\r",
+        "\t\t\"showNavigationArrows\": ${4|true,false|},\r",
+        "\t\t\"showPaginationDots\": ${5|true,false|},\r",
+        "\t\t\"thumbnailVisibility\": \"${6|visible,hidden|}\",\r",
+        "\t\t\"thumbnailAspectRatio\": \"${7:auto}\",\r",
+        "\t\t\"thumbnailMaxHeight\": \"${8:150}\",\r",
+        "\t\t\"thumbnailsOrientation\": \"${9|vertical,horizontal|}\"\r",
+        "\t}\r",
+        "},",
+        "$10"
+    ],
+    "description": "O bloco é responsável por renderizar uma imagem ou vídeo do produto"
+}
+}
