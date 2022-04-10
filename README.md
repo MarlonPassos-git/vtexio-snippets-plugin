@@ -25,26 +25,98 @@
 - Documentação VTEX inbutida 
 - Mostra Valores que vem por padrao em cada propriedade
 - Verifica erros na escrita dos blocos JSON
+  
+## Como Instalar 
 
+   [Instale a extensao no marketplace do VSCode ](https://marketplace.visualstudio.com/items?itemName=1marlonpassos.vtexio-snippets-plugin)
 
 
 ## Como usar
 
-### Snippets
+### Snippets (json)
 Dentro de aquivos JSON/JSONC existem 2 tipos de snippets, os com o prefixo ``vtex.``. e os com ``fvtex.``.
 - ``fvtex.`` -> Cria um objeto JSON com todas as propriedades do componente VTEX
 - ``vtex.`` -> Cria um objeto JSON com as propriedades mais usadas do componente VTEX       
 
 Depois do prefixo escreva o nome do componente VTEX que deseja, exemplo:
 
-vtex.flex
+``fvtex.rich-text``
 ```json
-
+{
+  "rich-text#": {
+    "props": {
+      "blockClass": "",
+      "font": "",
+      "htmlId": "",
+      "preventVerticalStretch": ,
+      "text": "",
+      "textAlignment": "",
+      "textColor": "",
+      "textPosition": ""
+    },
+    "children": [
+      ""
+    }
+  }
+}
+```
+``vtex.rich-text``
+```json
+{
+  "rich-text#": {
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": ,
+      "text": "",
+      "textAlignment": "",
+    },
+    "children": [
+      ""
+    }
+  }
+}
 ```
 
-## Como Instalar 
+### Snippets (css)
+Dentro de aquivos CSS/SCSS existem 2 tipos de snippets, os com o prefixo ``vtex.`` e os com ``cvtex.``.
 
-   [Instale a extensao no marketplace do VSCode ](https://marketplace.visualstudio.com/items?itemName=1marlonpassos.vtexio-snippets-plugin)
+- ``vtex.`` -> Cria uma estrutura com todas as classe que esse componte deixa disponivel 
+- ``cvtex.`` -> Cria uma estrutura com todas as classe que esse componte deixa disponivel + adiciona cometarios sobre as classes
+  
+  ``cvtex.flex-layout``
+```scss
+// Container 
+.flexRow-- {
+
+}
+
+// Involucro 
+.flexRowContent-- {
+
+}
+```
+  
+``vtex.flex-layout``
+```scss
+.flexRow-- {
+
+}
+
+.flexRowContent-- {
+
+}
+```
+💡 Lembre-se de usar o atalho ``CTRL + SPACE`` para ver os snippets disponiveis enquanto digita 
+<img src="./docs/img/sugestoes.png">
+
+### intellisense 
+Como projetos VTEX IO por padrao seguem a mesma estrutura de pastas o intellisense so funcionara dentro de arquivo JSON que estao dentro de uma pasta 
+
+💡 Ao passar o mouse em cima do nome de componente ou propriedade voce vai ver uma descrição
+<img src="./docs/img/hover.png">
+
+
+
 ## Progresso 
 
 [Veja como esta o progresso de desenvolvimento dessa extensao](./docs/progresso.md)
