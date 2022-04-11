@@ -45,7 +45,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "./shared/responsive-values.schema.json"
+                  "$ref": "#/definitions/children"
                 }
               ],
               "description": "Define the tachyon token to be used as font.",
@@ -75,7 +75,7 @@
           "title": "Block's chindren",
           "type": "array",
           "items": {
-            "$ref": "./shared/block.schema.json"
+            "$ref": "#/definitions/children"
           }
         },
         "props": {

@@ -10,7 +10,7 @@
 			"markdownDescription": "https://developers.vtex.com/vtex-developer-docs/docs/vtex-minicart\n\nThe VTEX Minicart is a block that displays a summary list of all items added by customers in their shopping cart. Its data is fetched from the Checkout OrderForm API.\n\n![Warning](https://developers.vtex.com/img/emojis/warning.png|width=12px) The Minicart v2 will only effectively function if the store uses the Add To Cart Button instead of the Buy Button in blocks such as the Shelf and the Product Details Page.\n\n`\"vtex.minicart@2.x\"`",
 			"properties": {
 				"children": {
-					"$ref": "./shared/children.schema.json"
+					"$ref": "#/definitions/children"
 				},
 				"props": {
 					"type": "object",
@@ -147,7 +147,8 @@
 			"markdownDescription": "https://developers.vtex.com/vtex-developer-docs/docs/vtex-minicart\n\nThe VTEX Minicart is a block that displays a summary list of all items added by customers in their shopping cart. Its data is fetched from the Checkout OrderForm API.\n\n![Warning](https://developers.vtex.com/img/emojis/warning.png|width=12px) The Minicart v2 will only effectively function if the store uses the Add To Cart Button instead of the Buy Button in blocks such as the Shelf and the Product Details Page.\n\n`\"vtex.minicart@2.x\"`",
 			"properties": {
 				"children": {
-					"$ref": "./shared/children.schema.json"
+					"$ref": "#/definitions/children"
+
 				},
 				"props": {
 					"type": "object",
@@ -273,6 +274,14 @@
 						}
 					}
 				}
+			}
+		}
+	},
+	"definitions": {
+		"children": {
+			"type": "array",
+			"items": {
+				"type": "string"
 			}
 		}
 	}
