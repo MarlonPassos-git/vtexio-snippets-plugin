@@ -14,4 +14,26 @@
   ],
 		"description": "disponibiliza blocos responsáveis ​​por exibir links em outros blocos temáticos"
 	},
+  "schema": {
+      "prefix": "schema",
+      "body": [
+          "{\r",
+          "  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\r",
+          "  \"title\": \"VTEX Blocks\",\r",
+          "  \"type\": \"object\",\r",
+          "  \"properties\": {\r",
+          "    \"$1\": {\r",
+          "$2",
+          "}",
+          "  },\r",
+          "  \"patternProperties\": {\r",
+          "    \"$$1#\": {\r",
+          "$2",
+          "}",
+          "    \r",
+          "  }\r",
+          "}"
+      ],
+      "description": ""
+  }
 }
