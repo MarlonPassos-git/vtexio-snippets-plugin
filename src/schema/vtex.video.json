@@ -4,10 +4,12 @@
   "type": "object",
   "properties": {
     "video": {
-      "markdownDescription": "[Docs](https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-video)\n\nThe Video app allows you to display video assets on your store pages.\n\n![img](https://raw.githubusercontent.com/MarlonPassos-git/vtexio-snippets-plugin/master/docs/img/blocos/vtex.video.png)\n\nvtex.store-video@1.x",
+	    "additionalProperties": false,
+      "markdownDescription": "[https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-video](https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-video)\n\nThe Video app allows you to display video assets on your store pages.\n\n![img](https://raw.githubusercontent.com/MarlonPassos-git/vtexio-snippets-plugin/master/docs/img/blocos/vtex.video.png)\n\nvtex.store-video@1.x",
       "type":"object",
       "properties": {
         "props": {
+    	    "additionalProperties": false,
           "type": "object",
           "description": "Block's properties",
           "properties": {
@@ -106,13 +108,15 @@
     }
   },
   "patternProperties": {
-    "$video#": {
-      "markdownDescription": "[Docs](https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-video)\n\nThe Video app allows you to display video assets on your store pages.\n\n![img](https://raw.githubusercontent.com/MarlonPassos-git/vtexio-snippets-plugin/master/docs/img/blocos/vtex.video.png)\n\nvtex.store-video@1.x",
+    "^video#": {
+	    "additionalProperties": false,
+      "markdownDescription": "[https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-video](https://developers.vtex.com/vtex-developer-docs/docs/vtex-store-video)\n\nThe Video app allows you to display video assets on your store pages.\n\n![img](https://raw.githubusercontent.com/MarlonPassos-git/vtexio-snippets-plugin/master/docs/img/blocos/vtex.video.png)\n\nvtex.store-video@1.x",
       "type":"object",
       "properties": {
         "props": {
           "type": "object",
           "description": "Block's properties",
+          "additionalProperties": false,
           "properties": {
             "blockclass": {
               "type": ["string", "array"],
