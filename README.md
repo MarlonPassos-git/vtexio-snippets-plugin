@@ -1,13 +1,14 @@
 <p align="center">
-  <a href="https://faststore.dev">
-    <img alt="Faststore" src="./icon.png" width="60" />
+  <a href="https://marketplace.visualstudio.com/items?itemName=1marlonpassos.vtex-io-tools">
+    <img alt="" src="./icon.png" width="60" />
   </a>
 </p>
 
 <h1 align="center">VTEX IO Tools 🛠</h1>
 
-<img align="center" src="https://github.com/MarlonPassos-git/vtexio-snippets-plugin/raw/baseExtension/docs/img/auto-complete.gif"/>
-<img src="https://github.com/MarlonPassos-git/vtexio-snippets-plugin/raw/baseExtension/docs/img/vtex%20snipets.gif"/>
+<img align="center" src="https://raw.githubusercontent.com/MarlonPassos-git/vtexio-snippets-plugin/master/docs/img/auto-complete.gif
+"/>
+<img src="https://raw.githubusercontent.com/MarlonPassos-git/vtexio-snippets-plugin/master/docs/img/vtex%20snipets.gif"/>
 
 
 ## Objetivo
@@ -28,7 +29,7 @@
   
 ## Como Instalar 
 
-   [Instale a extensao no marketplace do VSCode ](https://marketplace.visualstudio.com/items?itemName=1marlonpassos.vtexio-snippets-plugin)
+   [Instale a extensao no marketplace do VSCode ](https://marketplace.visualstudio.com/items?itemName=1marlonpassos.vtex-io-tools)
 
 
 ## Como usar
