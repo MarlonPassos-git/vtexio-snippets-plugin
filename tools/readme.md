@@ -1,0 +1,1 @@
+esse diretorio tem algumas ferramentas que ajudam na processo de criaçao do plugin 

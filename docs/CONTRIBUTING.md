@@ -1,6 +1,10 @@
 
 <h1 align="center"> Como contribuir </h1>
 
+
+- Use o comando ``yarn dev`` para juntas todos os arquivos JSON
+- Aperte F5 para abrir um VSCode para testar as suas modificações. Dentro dele aperte CTRL + R para atualizar com as ultima modificações
+
 1. [Baixe a extensao Convert text/code to a snippet](https://marketplace.visualstudio.com/items?itemName=nsfilho.tosnippet). Ela vai ajudar no processo de criação de novos snippets.
 2. Escolha em nossa lista de tarefas alguma propriedade faltando que você deseja contribuir.
 3. Faça uma fork desse projeto

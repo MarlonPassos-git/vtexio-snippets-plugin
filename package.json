@@ -1,5 +1,6 @@
 {
     "name": "vtex-io-tools",
+    "type": "module",
     "displayName": "VTEX IO Tools 🛠",
     "description": "VTEX IO: snippets JSON, snippets CSS, autocomplete in JSON, integrated documentation and JSON error checking",
     "publisher": "1marlonpassos",

@@ -6,10 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.3.0] - 2022-04-10
 ### Added
-- d
+- ``vtex.video`` (json, schema, css)
+- we added the possibility of having an image with an example if the block in your name
 
 ### Changed
 - changing project name and description
+- add img in ``vtex.back-to-top-button`` description
+
 
 ## [0.2.0] - 2022-04-09
 ### Added 
