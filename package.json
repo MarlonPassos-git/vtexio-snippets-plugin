@@ -47,7 +47,8 @@
         ]
     },
     "scripts": {
-        "dev": "gulp dev"
+        "dev": "gulp dev",
+        "push": "git push github master | git push gitlab master"
     },
     "dependencies": {
         "global": "^4.4.0",
