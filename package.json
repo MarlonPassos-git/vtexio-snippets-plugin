@@ -39,9 +39,9 @@
         "jsonValidation": [
             {
                 "fileMatch": [
-					"**/store/**/*.jsonc",
-					"**/store/**/*.json"
-				],
+                    "**/store/**/*.jsonc",
+                    "**/store/**/*.json"
+                ],
                 "url": "./dist/schema/schema.json"
             }
         ]
@@ -50,12 +50,9 @@
         "dev": "gulp dev",
         "push": "git push github master | git push gitlab master"
     },
-    "dependencies": {
-        "global": "^4.4.0",
-        "typescript-json-schema": "^0.53.0"
-    },
     "devDependencies": {
         "gulp": "^4.0.2",
-        "gulp-merge-json": "^2.1.2"
+        "gulp-merge-json": "^2.1.2",
+        "typescript-json-schema": "^0.53.0"
     }
 }

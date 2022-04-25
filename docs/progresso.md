@@ -79,7 +79,7 @@
  |Store Link|x|x|| |
  |Store Media| | | || |
  |Store Newsletter| | | || |
- |Video| | | || |
+ |Video|✅| |✅|✅| |
  |VTEX IO Sandbox Component| | | || |
  |VTEX Product Specification Badges| | | || |
  |Wishlist| | | || |

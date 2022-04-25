@@ -1,30 +1,30 @@
 {
   "fvtex.video": {
-      "prefix": "fvtex.video",
-      "body": [
-          "  \"video#$1\": {\r",
-          "    \"props\": {\r",
-          "      \"blockclass\": \"$1\",\r",
-          "      \"autoPlay\": $2,\r",
-          "      \"controlsType\": \"$3\",\r",
-          "      \"description\": \"$4\",\r",
-          "      \"FullscreenIcon\": \"$5\",\r",
-          "      \"height\": $6,\r",
-          "      \"loop\": $7,\r",
-          "      \"muted\": $8,\r",
-          "      \"name\": \"$9\",\r",
-          "      \"PauseIcon\": \"$10\",\r",
-          "      \"PlayIcon\": \"$11\",\r",
-          "      \"playsInline\": $12,\r",
-          "      \"poster\": \"$13\",\r",
-          "      \"src\": \"$14\",\r",
-          "      \"type\": \"$15\",\r",
-          "      \"VolumeOffIcon\": \"$16\",\r",
-          "      \"VolumeOnIcon\": \"$17\",\r",
-          "      \"width\": $18\r",
-          "    }\r",
-          "  }\r"
-      ],
-      "description": "The Video app allows you to display video assets on your store pages."
+    "prefix": "fvtex.video",
+    "body": [
+      "  \"video#$1\": {\r",
+      "    \"props\": {\r",
+      "      \"blockclass\": \"$1\",\r",
+      "      \"autoPlay\": $2,\r",
+      "      \"controlsType\": \"$3\",\r",
+      "      \"description\": \"$4\",\r",
+      "      \"FullscreenIcon\": \"$5\",\r",
+      "      \"height\": $6,\r",
+      "      \"loop\": $7,\r",
+      "      \"muted\": $8,\r",
+      "      \"name\": \"$9\",\r",
+      "      \"PauseIcon\": \"$10\",\r",
+      "      \"PlayIcon\": \"$11\",\r",
+      "      \"playsInline\": $12,\r",
+      "      \"poster\": \"$13\",\r",
+      "      \"src\": \"$14\",\r",
+      "      \"type\": \"$15\",\r",
+      "      \"VolumeOffIcon\": \"$16\",\r",
+      "      \"VolumeOnIcon\": \"$17\",\r",
+      "      \"width\": $18,\r",
+      "    }\r",
+      "  }\r"
+    ],
+    "description": "The Video app allows you to display video assets on your store pages."
   }
 }

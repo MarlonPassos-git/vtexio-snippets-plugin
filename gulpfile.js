@@ -1,15 +1,15 @@
-const gulp = require('gulp');
-const gulpMergeJson = require('gulp-merge-json');
-const { watch } = require('gulp');
+import gulp from "gulp";
+import gulpMergeJson from 'gulp-merge-json';
+const { src, dest, watch } = gulp;
 
 function joinJSONs(extension) {
-  const gulpMergeJsonConfig = {
+  const gulpMergeJsonConfig = {s
     fileName: `snippets.${extension}.code-snippets`,
   }
 
-  return gulp.src([`src/snippets/${extension}/*.json`])
+  return src([`src/snippets/${extension}/*.json`])
     .pipe(gulpMergeJson(gulpMergeJsonConfig))
-    .pipe(gulp.dest("dist/snippets"));
+    .pipe(dest("dist/snippets"));
 }
 
 function joinSchema() {
@@ -17,9 +17,9 @@ function joinSchema() {
     fileName: `schema.json`,
   }
 
-  return gulp.src([`src/schema/*.json`])
+  return src([`src/schema/*.json`])
     .pipe(gulpMergeJson(gulpMergeJsonConfig))
-    .pipe(gulp.dest("dist/schema"));
+    .pipe(dest("dist/schema"));
 }
 
 
@@ -50,6 +50,7 @@ const watchOptions = {
   ignoreInitial: false,
 }
 
-exports.dev = dev;
+const _dev = dev;
+export { _dev as dev };
 
 watch('src/**/*.json',watchOptions, dev);

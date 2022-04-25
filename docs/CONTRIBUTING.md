@@ -47,3 +47,7 @@ Este codigo vai gerar retorna no console um rascunho de todas as propriedades qu
 1. Com isso monte um template de desse bloco em algum dos arquivos test.* (Deixei esses arquivos para testar tudo sem a necessidade de ficar criando arquivos avulsos)
 2. Depois de criar o template ajuste esse codigo para o formato de snippet JSON.<br/> Você pode selecionar o seu codigo, apertar F1 e digitar ``>Convert to Snippet`` e aperte enter, assim retorar no seu terminal uma verção com o espaçamentos e tabulação ajustados.
 3. Pedir um Pull Request 
+
+
+## 🧐O que há dentro?
+
