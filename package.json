@@ -53,6 +53,7 @@
     "devDependencies": {
         "gulp": "^4.0.2",
         "gulp-merge-json": "^2.1.2",
-        "typescript-json-schema": "^0.53.0"
+        "typescript-json-schema": "^0.53.0",
+        "puppeteer": "^13.6.0"
     }
 }

@@ -3,7 +3,7 @@ import gulpMergeJson from 'gulp-merge-json';
 const { src, dest, watch } = gulp;
 
 function joinJSONs(extension) {
-  const gulpMergeJsonConfig = {s
+  const gulpMergeJsonConfig = {
     fileName: `snippets.${extension}.code-snippets`,
   }
 
