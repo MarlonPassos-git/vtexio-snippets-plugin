@@ -1,14 +1,10 @@
 import { readFile, writeFile } from 'fs';
 import { SnippetCSS } from './tools/SnippetCSS.js';
+import { CONFIG } from "./config.js";
 
-const NAME = 'video';
-const DESCRIPTION = '';
-const MARKDOWN_DESCRIPTION = '' 
-const PATH_FOLDER_SNIPPETS_CSS = "../../src/snippets/css";
-const PATH_FOLDER_SNIPPETS_JSON = "";
-const PATH_FOLDER_SCHEMA = "";
+const { NAME, PATH_FOLDER_SNIPPETS_CSS, DESCRIPTION} = CONFIG
 
-readFile('./css.txt', 'utf8', (err, data) => {
+readFile('./propsCSS.txt', 'utf8', (err, data) => {
   if (err) throw err;
   const snippet = new SnippetCSS({
     prefix: 'video',
